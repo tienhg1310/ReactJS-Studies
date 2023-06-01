@@ -4,7 +4,7 @@ import { useState } from 'react'
 const gifts = [
   'Tien',
   'Ming',
-  'Nam',
+  // 'Nam',
 ]
 const courses = [
   {
