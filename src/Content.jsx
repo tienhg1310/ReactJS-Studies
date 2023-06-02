@@ -1,9 +1,9 @@
 import { React, memo } from "react"
 
-function Content() { // {count}
+function Content({count}) { // {count}
   console.log("re-render")
   return (
-    <h2>HELLO </h2>
+    <h2>HELLO {count} </h2>
   )
 }
 
