@@ -1,7 +1,10 @@
+import { React, memo } from "react"
 
-
-export default function Content() {
+function Content() { // {count}
+  console.log("re-render")
   return (
-    <div>Content</div>
+    <h2>HELLO </h2>
   )
 }
+
+export default memo(Content)

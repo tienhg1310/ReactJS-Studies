@@ -4,7 +4,9 @@ import Content from "./Content";
 const gifts = [
   "Tien",
   "Ming",
-  // 'Nam',
+  'Nam',
+  "Phuong",
+  "Kien",
 ];
 const courses = [
   {
